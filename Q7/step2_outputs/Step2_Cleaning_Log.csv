@@ -1,0 +1,22 @@
+﻿step,column,affected_count,action,reason
+Column labels,ALL,9,Trimmed and standardised column names,Makes column references consistent; original names are simple and already mostly standard.
+Whitespace,emisno,199853,Trimmed leading/trailing whitespace from text values,Avoids artificial categories caused by accidental spaces.
+Whitespace,centername,193922,Trimmed leading/trailing whitespace from text values,Avoids artificial categories caused by accidental spaces.
+Whitespace,institution_name,133926,Trimmed leading/trailing whitespace from text values,Avoids artificial categories caused by accidental spaces.
+Whitespace,centreno,199823,Trimmed leading/trailing whitespace from text values,Avoids artificial categories caused by accidental spaces.
+Whitespace,quintile,197040,Trimmed leading/trailing whitespace from text values,Avoids artificial categories caused by accidental spaces.
+Whitespace,ward_id,199071,Trimmed leading/trailing whitespace from text values,Avoids artificial categories caused by accidental spaces.
+Whitespace,street_address,193150,Trimmed leading/trailing whitespace from text values,Avoids artificial categories caused by accidental spaces.
+Whitespace,new_long,167741,Trimmed leading/trailing whitespace from text values,Avoids artificial categories caused by accidental spaces.
+Placeholder handling,centername,135093,Converted common unavailable-information placeholders to missing values,"Placeholder strings do not represent a meaningful name, address, category, or coordinate."
+Placeholder handling,institution_name,1,Converted common unavailable-information placeholders to missing values,"Placeholder strings do not represent a meaningful name, address, category, or coordinate."
+Placeholder handling,street_address,2596,Converted common unavailable-information placeholders to missing values,"Placeholder strings do not represent a meaningful name, address, category, or coordinate."
+Placeholder handling,quintile,39324,Converted common unavailable-information placeholders to missing values,"Placeholder strings do not represent a meaningful name, address, category, or coordinate."
+Placeholder handling,new_long,1579,Converted common unavailable-information placeholders to missing values,"Placeholder strings do not represent a meaningful name, address, category, or coordinate."
+Placeholder handling,new_lat,0,Converted common unavailable-information placeholders to missing values,"Placeholder strings do not represent a meaningful name, address, category, or coordinate."
+Identifier type,emisno,199853,Stored identifier values as strings,"Identifiers are labels/codes, not continuous measurements."
+Identifier type,centreno,199823,Stored identifier values as strings,"Identifiers are labels/codes, not continuous measurements."
+Identifier type,ward_id,199071,Stored identifier values as strings,"Identifiers are labels/codes, not continuous measurements."
+Quintile standardisation,quintile,11647,Mapped Q1–Q5 to 1–5,These labels directly correspond to the same numbered quintiles.
+Coordinate conversion,new_long,5682,Converted to numeric; unparseable non-missing values became missing,Coordinates must be numeric for geographic validation and mapping.
+Coordinate conversion,new_lat,0,Converted to numeric; unparseable non-missing values became missing,Coordinates must be numeric for geographic validation and mapping.

@@ -1,0 +1,10 @@
+﻿,dtype_after_cleaning,missing_count,missing_percent,distinct_non_missing_values
+centername,str,141024,70.56,12058
+new_lat,float64,115746,57.92,54847
+institution_name,str,65928,32.99,51342
+quintile,str,42137,21.08,13
+new_long,float64,39373,19.7,57208
+street_address,str,9299,4.65,51323
+ward_id,string,782,0.39,4857
+centreno,string,30,0.02,10359
+emisno,string,0,0.0,33670

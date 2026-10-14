@@ -1,0 +1,4 @@
+﻿check,count,interpretation
+Exact duplicate rows,19244,Review before removal; exact duplicates may reflect repeated source records.
+Rows with repeated emisno,198084,Repeated IDs are not automatically errors; confirm what one row represents.
+Rows with repeated centreno,199618,Repeated IDs are not automatically errors; confirm what one row represents.
